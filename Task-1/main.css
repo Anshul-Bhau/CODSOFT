@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bowlby+One&family=Meie+Script&family=Miss+Fajardose&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Teko:wght@300..700&display=swap');
+
+@font-face {
+    font-family: 'Beckan-Personal-Use';
+    src: url('/Task-1/fonts/Beckan-Personal-Use.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.nav-left-elem a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-self: flex-start;
+    font-size: 20px;
+}
+
+.nav-right-elem {
+    justify-self: flex-end;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1rem 2.1rem;
+    padding: 1.2rem 2.1rem;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 3rem;
+    list-style: none;
+
+}
+
+.list-items li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+.hero-sec {
+    position: relative;
+    top: 3%;
+    color: white;
+    width: auto;
+    height: auto;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.img-1 img {
+    position: relative;
+    height: 17rem;
+    width: 17rem;
+
+}
+
+.hero-cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-cont p {
+    font-family: "Space Mono", monospace;
+}
+
+#First-name {
+    font-family: 'Beckan-Personal-Use';
+    font-weight: 700;
+    font-size: 8rem;
+    line-height: 8rem;
+}
+
+.hero-cont ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 9rem;
+    line-height: 6rem;
+}
+
+#B {
+    color: rgb(88, 127, 227);
+}
+
+#H {
+    color: rgb(133, 192, 66);
+}
+
+#A {
+    color: rgb(181, 59, 163);
+}
+
+#U {
+    color: rgba(196, 188, 41, 0.995);
+}
+
+.intro-container {
+    height: auto;
+    width: 90%;
+    margin: 120px 2rem;
+    align-items: center;
+}
+
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.intro h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    margin-left: 3.5rem;
+    font-weight: 500;
+}
+
+.second-line {
+    margin-bottom: 3rem;
+}
+
+#enjoy {
+    font-family: "Meie Script", cursive;
+    color: rgb(88, 127, 227);
+}
+
+
+.img-container img {
+    /* max-height: 80vh; */
+    position: relative;
+    height: 70vh;
+    width: auto;
+    padding: 2rem 0.8rem;
+}
+
+#intro-text {
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 45vw;
+    font-size: 20px;
+    margin-left: 3.5rem;
+    font-family: monospace;
+
+}
+
+.btm-cont {
+    position: relative;
+    ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vh;
+    left: 33%;
+    gap: 4px;
+}
+
+.email {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.email a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.place {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.proj-container {
+    height: auto;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.01);
+    margin: 1.5rem 2rem;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.projects-title {
+    font-family: "Meie Script", cursive;
+    font-size: 3rem;
+    color: rgb(196, 188, 41);
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+#proj {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.project-card1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 370px;
+    width: 360px;
+    margin: 1.5rem 2rem;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.project-card1 img {
+    height: 130px;
+    width: 130px;
+    margin: 1.5rem 2rem;
+    border-radius: 5px;
+}
+
+.project-card1 a {
+    text-decoration: none;
+    color: rgb(196, 188, 41);
+    width: 30vw;
+    font-size: 1.55rem;
+    align-self: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 117%;
+    word-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+
+.proj1-info {
+    color: rgb(255, 255, 255);
+    width: 20vw;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 700;
+    line-height: 117%;
+    word-spacing: 3px;
+    padding: 0rem 1.7rem;
+
+}
+
+.project-card2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 370px;
+    width: 360px;
+    margin: 1.5rem 2rem;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.project-card2 img {
+    height: 130px;
+    width: 130px;
+    margin: 1.5rem 2rem;
+    border-radius: 5px;
+}
+
+.project-card2 a {
+    text-decoration: none;
+    color: rgb(196, 188, 41);
+    width: 30vw;
+    font-size: 1.55rem;
+    align-self: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 117%;
+    word-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+.proj2-info {
+    color: rgb(255, 255, 255);
+    width: 20vw;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 700;
+    line-height: 117%;
+    word-spacing: 3px;
+    padding: 0rem 1.7rem;
+
+}
+
+.project-card3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 370px;
+    width: 360px;
+    margin: 1.5rem 2rem;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.project-card3 img {
+    height: 130px;
+    width: 130px;
+    margin: 1.5rem 2rem;
+    border-radius: 5px;
+}
+
+.project-card3 a {
+    text-decoration: none;
+    color: rgb(196, 188, 41);
+    width: 30vw;
+    font-size: 1.55rem;
+    align-self: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 117%;
+    word-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+
+.proj3-info {
+    color: rgb(255, 255, 255);
+    width: 20vw;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 700;
+    line-height: 117%;
+    word-spacing: 3px;
+    padding: 0rem 1.7rem;
+
+}
+
+.project-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.skills-title {
+    font-family: "Meie Script", cursive;
+    font-size: 3rem;
+    color: rgb(181, 59, 163);
+    margin-left: 3.5rem;
+    margin-top: 7%;
+}
+
+#skillset {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+
+}
+
+.skill-items {
+    height: auto;
+    width: 90%;
+    margin: 1.5rem 2rem;
+    align-items: center;
+    margin-bottom: 8%;
+
+}
+
+.skill-list {
+    list-style: none;
+    display: grid;
+    padding: 2rem 4rem;
+    gap: 8rem;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.skill-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Advent Pro", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.resume {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 3rem;
+}
+
+.resume h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.resume a i {
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+.sec-heading {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+.me {
+    color: rgb(133, 192, 66);
+    font-family: "Meie Script", cursive;
+}
+
+.contact-sec {
+    gap: 3rem;
+    margin: auto;
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    max-width: 1200px;
+    border-bottom: 1.3px solid whitesmoke;
+    flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 100px;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2.5rem;
+}
+
+.info p,
+i {
+    color: white;
+    font-size: 1rem;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.info i {
+    margin-right: 10px;
+}
+
+.info p {
+    padding: 10px 15px;
+    border: 1px solid #504d4d;
+    border-radius: 3px;
+}
+
+.info .page {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100%;
+    text-align: right;
+}
+
+
+.links #name {
+    font-family: "Miss Fajardose", cursive;
+    font-size: 4rem;
+    color: rgb(133, 192, 66);
+}
+
+.links .cont_icons i {
+    color: white;
+    font-size: 1rem;
+}
+
+.links .cont_icons i:hover {
+    color: #504d4d;
+}
