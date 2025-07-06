@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(35, 35, 35);
+}
+
+h2 {
+    color: rgb(194, 194, 194);
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 24px;
+}
+
+.container {
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    height: 100px;
+    width: 960px;
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    background: rgb(52, 52, 52);
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+    width: 1000px;
+    height: 400px;
+}
+
+button:active {
+    filter: brightness(0.7);
+}
+
+.operator-btn {
+    border: none;
+    border-radius: 5px;
+    background: rgb(69, 69, 69);
+    font-size: 1.3rem;
+    color: white;
+}
+
+.operator-btn:hover {
+    background:rgb(95, 95, 95);
+    transition-duration: 0.2s;
+}
+
+.numpad-btn {
+    border: none;
+    border-radius: 5px;
+    background: rgb(95, 95, 95);
+    font-size: 1.3rem;
+    color: white;
+}
+
+.numpad-btn:hover {
+    background: rgb(69, 69, 69);
+    transition-duration: 0.2s;
+}
+
+.equal {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    background: rgb(201, 201, 201);
+}
+
+.equal:hover {
+    background: rgb(184, 184, 184);
+    transition-duration: 0.2s;
+}
