@@ -72,19 +72,7 @@ body {
     font-size: 1.1rem;
 }
 /* 
-.hero-sec {
-    position: relative;
-    top: 3%;
-    color: white;
-    width: auto;
-    height: auto;
-    align-items: center;
-    display: flex;
-    height: 80vh;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-bottom: 40px;
-}
+
 
 .img-1 img {
     position: relative;
