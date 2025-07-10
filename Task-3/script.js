@@ -19,6 +19,21 @@ buttons.forEach((elem) => {
             else if (elem.dataset.button == "+/-") {
                 display.value = eval(display.value * (-1));
             }
+            else if (elem.dataset.button == "square") {
+                display.value = eval(display.value * display.value);
+            }
+            else if (elem.dataset.button == "sqrt") {
+                display.value = Math.sqrt(parseInt(display.value));
+            }
+            else if (elem.dataset.button == "1/x") {
+                display.value = eval(1 / display.value);
+            }
+            else if (elem.dataset.button == "(") {
+                display.value += "(";
+            }
+            else if (elem.dataset.button == ")") {
+                display.value+= ")";
+            }
             else if (elem.dataset.button == "=") {
                 if (display.value == "") {
                     display.value = "";
